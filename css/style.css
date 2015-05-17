@@ -1,0 +1,51 @@
+.icon {
+  height: 1em;
+  width: 1em;
+}
+
+.social__link {
+  font-size: 3em;
+  text-decoration: none;
+}
+
+/* hover & active states */
+.icon--ei-sc-twitter:hover,
+.icon--ei-sc-twitter:active {
+  fill: #1689e0;
+}
+
+.icon--ei-sc-facebook:hover,
+.icon--ei-sc-facebook:active {
+  fill: #263962;
+}
+
+.icon--ei-sc-instagram:hover,
+.icon--ei-sc-instagram:active {
+  fill: #294a65;
+}
+
+.icon--ei-sc-youtube:hover,
+.icon--ei-sc-youtube:active {
+  fill: #8b1615;
+}
+
+.icon--ei-sc-vimeo:hover,
+.icon--ei-sc-vimeo:active {
+  fill: #0f83a8;
+}
+
+.icon--ei-sc-linkedin:hover,
+.icon--ei-sc-linkedin:active {
+  fill: #004569;
+}
+
+/* Hide visually but readable by screen readers.
+source: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+.screen-reader {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
